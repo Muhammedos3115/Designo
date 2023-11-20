@@ -122,3 +122,111 @@
         }
     }
 }
+@media (max-width: 768px){
+    .about-section3{
+        width: 690px;
+        height: 350px;
+        padding-top: 57px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: normal;
+    }
+    .about-section3__left{
+        display: flex;
+        align-items: center;
+    }
+    .about-section3__left__title{
+        text-align: center;
+    }
+    .about-section3__left__text{
+        text-align: center;
+    }
+    .about-section3__btn{
+        margin-top: 34px;
+    }
+    .footer__nav{
+        margin: 80px auto;
+        width: 690px;
+    }
+    .footer__bottom{
+        width: 690px;
+    }
+    .footer__bottom__ul:nth-child(2){
+        margin-left: 0px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 376px){
+    .about-section3{
+        margin: 20px auto;
+        width: 327px;
+        height: 379px;
+        padding-top: 64px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: normal;
+    }
+    .about-section3__left{
+        display: flex;
+        align-items: center;
+    }
+    .about-section3__left__title{
+        text-align: center;
+        font-size: 32px;
+        width: 279px;
+        line-height: 36px;
+    }
+    .about-section3__left__text{
+        text-align: center;
+        width: 279px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about-section3__btn{
+        margin-top: 34px;
+    }
+    .footer{
+        margin-top: 500px;
+        padding-bottom: 100px;
+    }
+    .footer__nav{
+        margin: 60px auto;
+        width: 327px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__nav__ul{
+        width: 327px;
+        padding-top: 32px;
+        margin-top: 32px;
+        display: flex;
+        row-gap: 32px;
+        border-top: 1px solid #343334;
+        flex-direction: column;
+        border-bottom: none;
+    }
+    .footer__bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        width: 327px;
+    }
+    .footer__bottom__ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .footer__bottom__ul:nth-child(2){
+        margin-left: 0px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}

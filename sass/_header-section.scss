@@ -10,6 +10,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    &__burger-menu{
+        display: none;
+    }
     &__ul{
         display: flex;
         align-items: center;
@@ -31,7 +34,8 @@
     }
 }
 .hero-section{
-    margin-top: 70px;
+    width: 1111px;
+    margin: 70px auto;
     width: 100%;
     height: 640px;
     background-color: #E7816B;
@@ -94,4 +98,83 @@
         right: 0;
         bottom: 0;
     }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 689px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .hero-section{
+        width: 100%;
+        height: 849px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        padding-left: 0px;
+        &__title{
+            text-align: center;
+        }
+        &__text{
+            text-align: center;
+        }
+        &__circle{
+            top: 101px;
+            right: -121px;
+            flex-shrink: 0;
+            background: url('../images/Oval.svg');
+            background-repeat: no-repeat;
+        }
+        &__phone{
+            width: 442px;
+            height: 508px;
+            background-image: url('../images/res-phone.svg');
+            right: 105px;
+            bottom: 0;
+        }
+    }
+}
+@media (max-width: 376px){
+    .container{
+        max-width: 376px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        padding: 0px 24px;
+        &__ul{
+            display: none;
+        }
+        &__burger-menu{
+            display: block;
+        }
+    }
+    .hero-section{
+        margin: 34px auto;
+        display: flex;
+        height: 843px;
+        padding-top: 80px;
+        border-radius: 0px;
+        &__title{
+            width: 327px;
+            font-size: 32px;
+            line-height: 36px;
+            text-align: center;
+        }
+        &__circle{
+            right: -260px;
+        }
+        &__text{
+            width: 327px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+        &__phone{
+            left: -15px;
+        }
+    }
+
 }

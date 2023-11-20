@@ -29,15 +29,24 @@
     justify-content: space-between;
     column-gap: 25px;
     &__card1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &__right{
         @include card-s2-property;
         &__title{
             @include card-title-s2;
         }
         &__text{
             @include card-text-s2;
+        }
         }
     }
     &__card2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &__right{
         @include card-s2-property;
         &__title{
             @include card-title-s2;
@@ -45,8 +54,13 @@
         &__text{
             @include card-text-s2;
         }
+        }
     }
     &__card3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &__right{
         @include card-s2-property;
         &__title{
             @include card-title-s2;
@@ -55,5 +69,162 @@
             @include card-text-s2;
             width: 340px;
         }
+        }
+    }
+}
+@media (max-width: 768px){
+    .about-section2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    .about-section2__card1{
+        width: 689px;
+        height: 202px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 48px;
+        align-items: center;
+    }
+    .about-section2__card1__right{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+    .about-section2__card1__right__text{
+        text-align: start;
+        margin-top: 16px;
+    }
+    .about-section2__card1__right__title{
+        text-align: start;
+        margin-top: 0px;
+    }
+
+    .about-section2__card2{
+        width: 689px;
+        height: 202px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 48px;
+        align-items: center;
+    }
+    .about-section2__card2__right{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+    .about-section2__card2__right__text{
+        text-align: start;
+        margin-top: 16px;
+    }
+    .about-section2__card2__right__title{
+        text-align: start;
+        margin-top: 0px;
+    }
+
+    .about-section2__card3{
+        width: 689px;
+        height: 202px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 48px;
+        align-items: center;
+    }
+    .about-section2__card3__right{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+    .about-section2__card3__right__text{
+        text-align: start;
+        margin-top: 16px;
+    }
+    .about-section2__card3__right__title{
+        text-align: start;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 376px){
+    .container{
+        max-width: 376px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .about-section2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 280px;
+    }
+    .about-section2__card1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section2__card1__right{
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-section2__card1__right__text{
+        text-align: center;
+        margin-top: 16px;
+        line-height: 26px;
+    }
+    .about-section2__card1__right__title{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .about-section2__card2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section2__card2__right{
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-section2__card2__right__text{
+        text-align: center;
+        margin-top: 16px;
+        line-height: 26px;
+    }
+    .about-section2__card2__right__title{
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .about-section2__card3{
+        width: 689px;
+        height: 202px;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .about-section2__card3__right{
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-section2__card3__right__text{
+        text-align: center;
+        margin-top: 16px;
+        line-height: 26px;
+    }
+    .about-section2__card3__right__title{
+        text-align: center;
+        margin-top: 0px;
     }
 }
