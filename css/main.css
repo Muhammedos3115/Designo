@@ -179,7 +179,9 @@
     text-align: center;
   }
   .hero-section__circle {
-    right: -260px;
+    right: -265px;
+    background-image: url("../images/ph_oval.svg");
+    border-radius: 640px;
   }
   .hero-section__text {
     width: 327px;
@@ -602,6 +604,9 @@
   .about-section2__card3__right__title {
     text-align: center;
     margin-top: 0px;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
 .footer {

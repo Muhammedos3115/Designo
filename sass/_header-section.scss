@@ -165,7 +165,9 @@
             text-align: center;
         }
         &__circle{
-            right: -260px;
+            right: -265px;
+            background-image: url('../images/ph_oval.svg');
+            border-radius: 640px;
         }
         &__text{
             width: 327px;
